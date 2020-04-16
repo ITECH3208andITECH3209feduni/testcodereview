@@ -3,10 +3,11 @@
 # This is the test project that we want to see how we can update the code without QC and code review
 
 
-# now this is the change I am doing in my forked repository
-
+Input name;
+Input address;
 import pychart
 import pypy
+
 
 from odoo.osv import expression
 from odoo.tools.float_utils import float_round as round, float_compare
